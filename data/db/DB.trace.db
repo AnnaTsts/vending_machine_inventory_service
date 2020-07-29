@@ -1,0 +1,4 @@
+2020-07-29 12:18:37 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "BRAND" не найдена
+Table "BRAND" not found; SQL statement:
+select productbra0_.brand_id as brand_id1_0_0_, productbra0_.brand_name as brand_na2_0_0_ from BRAND productbra0_ where productbra0_.brand_id=? [42102-200]
